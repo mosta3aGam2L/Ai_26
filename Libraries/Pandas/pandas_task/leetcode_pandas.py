@@ -73,7 +73,7 @@ def fillMissingValues(products: pd.DataFrame) -> pd.DataFrame:
 def concatenateTables(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:
    return pd.concat([df1,df2])
     
-#####################3
+#####################3 /Level not easy
 def pivotTable(weather: pd.DataFrame) -> pd.DataFrame:
     return weather.pivot(index='month',columns='city',values='temperature')
     

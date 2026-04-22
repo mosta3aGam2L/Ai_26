@@ -1,3 +1,22 @@
 house_prices.csv
 Projects/netfilx_visualilzation/netflix1.csv 
 Projects/Ask_me_project
+# Data
+*.csv
+*.xlsx
+*.json
+ 
+# Output images
+*.png
+*.jpg
+*.jpeg
+ 
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+ 
+# Env
+.env
+venv/
+ 
